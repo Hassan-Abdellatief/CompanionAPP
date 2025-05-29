@@ -1,2 +1,2 @@
 # CompanionAPP
-University companion app to guide students through life
+University companion app to guide students through life.

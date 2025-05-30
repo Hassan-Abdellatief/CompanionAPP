@@ -11,8 +11,10 @@ RUN git clone --branch stable --depth 1 https://github.com/flutter/flutter.git /
 
 
 # 2. Install Node.js 18 via nvm
-RUN su vscode -c ". /usr/share/nvm/init-nvm.sh \
- && nvm install 18 && nvm alias default 18"
+RUN bash -lc '. /usr/share/nvm/init-nvm.sh \
+  && nvm install 18 \
+  && nvm alias default 18'
+
 
 # 3. Install Supabase CLI
 RUN apt-get update && apt-get install -y wget unzip \

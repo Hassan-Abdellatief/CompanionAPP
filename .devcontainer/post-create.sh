@@ -1,15 +1,18 @@
 #!/usr/bin/env bash
 set -e
 
-# 1. Install backend deps if they exist
-cd backend && npm install || echo "backend: no package.json yet"
+# Backend deps
+if [ -d backend ]; then
+  cd backend && npm install && cd ..
+fi
 
-# 2. Install Flutter deps if they exist
-cd ../frontend && flutter pub get || echo "frontend: no pubspec.yaml yet"
+# Flutter deps
+if [ -d frontend ]; then
+  cd frontend && flutter pub get && cd ..
+fi
 
-# 3. Sanity-check everything
+# Sanity checks
 flutter doctor -v
-node -v
-npm -v
+node -v && npm -v
 supabase --version
 vercel --version

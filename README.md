@@ -58,24 +58,24 @@ Before you begin, ensure you have the following installed:
 1. **Check available devices**
 
    ```bash
-   flutter devices
+      flutter devices
    ```
 
 2. **Run on your preferred platform For Web (Recommended for development):**
    
    ```bash
-   flutter run -d chrome
+      flutter run -d chrome
    ```
 **For macOS:**
    ```bash
-   flutter run -d macos
+      flutter run -d macos
    ```
 **For iOS Simulator:**
    ```bash
-   flutter run -d ios
+      flutter run -d ios
    ```
 **For Android Emulator:**
    ```bash
-   flutter run -d android
+      flutter run -d android
    ```
 

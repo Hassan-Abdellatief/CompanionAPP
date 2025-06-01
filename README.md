@@ -61,21 +61,20 @@ Before you begin, ensure you have the following installed:
    flutter devices
 ```
 
-2. **Run on your preferred platform
-For Web (Recommended for development):**
+2. **Run on your preferred platform For Web (Recommended for development):**
 
 ```bash
    flutter run -d chrome
 ```
-
+**For macOS:**
 ```bash
    flutter run -d macos
 ```
-
+**For iOS Simulator:**
 ```bash
    flutter run -d ios
 ```
-
+**For Android Emulator:**
 ```bash
    flutter run -d android
 ```

@@ -32,8 +32,27 @@ Before you begin, ensure you have the following installed:
 1. **Clone the repository**
    ```bash
    git clone https://github.com/Hassan-Abdellatief/CompanionAPP.git
-   
+   ```   
 2. **Navigate to the project directory**
+   ```bash
+   cd CompanionAPP
+   ```
+3. **Install Flutter dependencies**
+   ```bash
+   flutter pub get
+   ```
+4. **Set up environment variables**
 ```bash
-cd CompanionAPP
+# Copy the example environment file
+cp .env.example .env
+
+# Edit .env with your actual credentials
+# You'll need:
+# - Supabase project URL
+# - Supabase anon key
+# (Ask the team lead for these values)
+```
+
+
+
 

@@ -43,16 +43,40 @@ Before you begin, ensure you have the following installed:
    ```
 4. **Set up environment variables**
 ```bash
-# Copy the example environment file
-cp .env.example .env
-
-# Edit .env with your actual credentials
-# You'll need:
-# - Supabase project URL
-# - Supabase anon key
-# (Ask the team lead for these values)
+   # Copy the example environment file
+   cp .env.example .env
+   
+   # Edit .env with your actual credentials
+   # You'll need:
+   # - Supabase project URL
+   # - Supabase anon key
+   # (Ask the team lead for these values)
 ```
 
+### Running the App
 
+1. **Check available devices**
 
+```bash
+   flutter devices
+```
+
+2. **Run on your preferred platform
+For Web (Recommended for development):**
+
+```bash
+   flutter run -d chrome
+```
+
+```bash
+   flutter run -d macos
+```
+
+```bash
+   flutter run -d ios
+```
+
+```bash
+   flutter run -d android
+```
 

@@ -42,7 +42,7 @@ Before you begin, ensure you have the following installed:
    flutter pub get
    ```
 4. **Set up environment variables**
-```bash
+   ```bash
    # Copy the example environment file
    cp .env.example .env
    
@@ -51,31 +51,31 @@ Before you begin, ensure you have the following installed:
    # - Supabase project URL
    # - Supabase anon key
    # (Ask the team lead for these values)
-```
+   ```
 
 ### Running the App
 
 1. **Check available devices**
 
-```bash
+   ```bash
    flutter devices
-```
+   ```
 
 2. **Run on your preferred platform For Web (Recommended for development):**
-
-```bash
+   
+   ```bash
    flutter run -d chrome
-```
+   ```
 **For macOS:**
-```bash
+   ```bash
    flutter run -d macos
-```
+   ```
 **For iOS Simulator:**
-```bash
+   ```bash
    flutter run -d ios
-```
+   ```
 **For Android Emulator:**
-```bash
+   ```bash
    flutter run -d android
-```
+   ```
 
